@@ -7,3 +7,4 @@ python-dotenv
 langchain-tavily
 fpdf
 python-docx
+PyPDF2
