@@ -1,0 +1,9 @@
+streamlit 
+langchain 
+langchain-core 
+langchain-community 
+langchain-groq 
+python-dotenv
+langchain-tavily
+fpdf
+python-docx

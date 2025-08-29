@@ -1,0 +1,95 @@
+/* Overrides Streamlit's built in theme */
+
+.stApp {
+    background-color: #427aa1;
+}
+/* app title color */
+.stApp h1 {
+    color: #ecf8f8; 
+    font-family: "Georgia, serif";
+    text-align: center;
+}
+
+/*  subheader */
+.stApp h3 {
+    color: #ecf8f8; 
+     font-family: "Georgia, serif"; 
+}
+
+/* divider  */
+
+/* Style the input form container */
+.input-container {
+    background-color: rgba(255, 255, 255, 0.2); /* A semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style all buttons */
+.stButton button {
+    background-color: #b5838d;
+    color: white;
+    border-radius: 5px;
+}
+/* Change the text input box's background color */
+.stTextInput label + div div {
+    background-color: #ebf2fa;
+    border: #b5838d;
+}
+
+/* Change the color of the input text */
+.stTextInput input[type="text"] {
+    color: #4d194d; 
+}       
+
+/*  drag-and-drop area */
+.st-emotion-cache-vgzhz4     {
+    background-color: #ecf8f8; 
+    border: 2px solid #b5838d;
+    border-radius: 10px;
+}
+
+/* "drag-and-drop" text color */
+.st-emotion-cache-ysg2um {
+    color: #a4c3b2; /* A dark purple color */
+    font-size: 16px;
+}
+
+/* "file limit" text color */
+.st-emotion-cache-b1errp {
+    color: #a4c3b2; /* A dark purple color */
+    font-size: 12px;
+}
+
+/* "Browse files" button */
+.st-emotion-cache-zh4rd8 {
+    background-color: #a4c3b2; /* A blue-violet color */
+    color: white;
+}
+
+/* sidebar */
+
+/* Change header text color in the sidebar */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: white; 
+}
+
+/* text color inside expanders */
+[data-testid="stSidebar"] .streamlit-expanderContent {
+    color: #333333; 
+}
+
+/* sidebar background color */
+[data-testid="stSidebar"] {
+    background-color: #013a63;  
+}
+
+.st-emotion-cache-1sm2s1z textarea  {
+    background-color: #ecf8f8;
+    color: #a4c3b2
+}
